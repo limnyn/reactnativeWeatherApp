@@ -1,0 +1,24 @@
+1.
+rn에서는 html 태그사용 X
+native에서는 View를 사용해야한다 그리고 항상 import 해주어야 한다.
+
+2.
+모든 text는 text 태그 내부에 있어야 한다.
+expo login 시 cmd에서 하기
+
+
+3.
+원하는 방식으로 style을 사용할 수 있다.
+StyleSheet.create 를 사용안해도 작동하지만 
+자동완성을 위해서 사용해주는것이 좋다
+또한 태그 내부에 style 작성시 자동완성을 사용할 수 있다.
+
+4.
+<StatusBar style="auto" /> 는 third party이다. 배터리, 시간등 표시
+
+
+5.
+반응형 레이아웃 === 다양한 스크린에서 동일한 방식으로 보이는 레이아웃
+
+6.
+https://reactnative.dev/docs
